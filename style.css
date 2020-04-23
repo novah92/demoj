@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+.bold {
+    color: #B1E9D5;
+}
+
+
+/*Header styles*/
+
+#home {
+    background: url(Images/work.jpg) no-repeat;
+    height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-size: cover !important;
+    overflow: hidden;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+}
+
+.btn-menu {
+    display: none;
+}
+
+/*Header nav bar*/
+
+.nav-wrap ul,
+.nav-wrap li .nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.nav-wrap {
+    font: 15px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    margin-right: 95px;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar-custom {
+    min-height: 48px;
+    width: 100%;
+    /* center align the menu */
+    text-align: center;
+
+}
+
+.navbar-custom > li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+
+
+}
+
+.navbar-custom > li > a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+.navbar-custom > li > a:hover {
+    color: white;
+    font-size: 24px;
+    background-color: orange;
+}
+
+/* Header socila links*/
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+
+.social {
+
+    font-size: 35px;
+    margin: 18px 0 18px 0;
+    padding: 10px;
+    float: left;
+    position: fixed;
+    left:1445px;
+}
+
+.social > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+
+}
+ /*social media ends here*/
+
+.header-banner {
+    text-align: center;
+    padding: 0 150px 0 150px;
+}
+
+.header-name {
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+    font-family: sans-serif;
+    text-indent: -1em;
+}
+
+.header-ban {
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+/*About Style*/
+
+
+#about {
+    font-family: sans-serif;
+    padding: 70px;
+    position: relative;
+    padding-bottom: 160px;
+    overflow: hidden;
+
+}
+#about:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url(Images/profilePic.JPEG);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.about {
+    padding: 1em 0;
+    width: 15em;
+    border-bottom: 1px dashed #44c7f4;
+}
+
+.h3-about {
+    text-align: left;
+    color: #111;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
+
+.p-about {
+    color: #44c7f4;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 7px
+}
+
+.details {
+    margin-left: 1em;
+}
+
+.details h4 {
+    font-size: 1em;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.details p {
+    color: #827e7e;
+    font-size: 0.95em;
+
+    padding-top: 10px;
+}
+
+/*beigning of serivces*/
+
+#services {
+    font-family: sans-serif;
+    padding: 70px;
+    position: relative;
+    padding-bottom: 160px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+
+}
+
+#services:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-color: black;
+}
+
+.service-list {
+    padding-top: 3em;
+
+}
+
+.service-list h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 400;
+}
+
+.service-list p {
+    text-align: justify;
+
+}
+
+.h4-services {
+    color: #111;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+/*education & Skills*/
+
+#skills {
+    padding-top: 0px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+}
+
+#education {
+    padding-top: 30px
+}
+
+#education:before {
+    content: '';
+    background-image: url(Images/education2.jpg);
+    background-size: cover;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+.education {
+    padding-top: 30px;
+    margin-left: 8em;
+}
+
+.education-info {
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.education p {
+    color: gray;
+}
+
+.education-year {
+    width: 30%;
+    float: left;
+    border-left: 5px solid black;
+    padding-left: 14px;
+
+}
+
+.education-year h4 {
+    color: #E66B00;
+}
+
+.education-list {
+    float: right;
+    width: 70%;
+}
+
+.education-list h4 {
+    color: #E66B00;
+}
+
+/* end of education styling*/
+
+/*starting of technology styling*/
+
+#technology {
+    padding-top: 30px
+}
+
+#technology:before {
+    content: '';
+    background-image: url(Images/web1.jpg);
+    background-size: cover;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+#technology:hover {}
+
+.technology-list {
+
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 60px;
+
+}
+
+.pb {
+    background-color: #f4721a;
+    height: 100%;
+}
+
+.progress-type {
+    position: absolute;
+    color: white;
+    left: 60px;
+    padding-left: 20px;
+    font-size: 1em;
+
+}
+
+.progress-completed {
+    position: absolute;
+    right: 10px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+/*expirence*/
+
+#experience {
+    padding-top: 30px;
+}
+
+#experience:before {
+    content: '';
+
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.experiecne {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 30px;
+
+}
+
+.experiecne-info {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.experiecne p {
+    color: gray;
+}
+
+
+
+.exp-year {
+    width: 30%;
+    float: left;
+    border-left: 5px solid #E66B00;
+    padding-left: 14px;
+}
+
+.company-list {
+    float: right;
+    width: 70%;
+}
+
+.company-list h4 {
+    margin-left: -25px;
+}
+
+.company-list p {
+    margin-left: -25px;
+}
+
+
+
+/*footer*/
+
+.foot {
+    padding-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+.foot1 {
+    padding-top: 5px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+
+.contact-field-set {
+    background-color: #2e2e2e;
+    padding: 20px 20px;
+    margin: 10px 15px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.contact-field {
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 40px;
+}
+
+.contact-field h4 {
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.foot-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    text-align: center;
+    background: #44c7f4;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+.foot-info{
+    padding-top: 10px;
+    font-size: 14px;;
+}
+
+.foot-info p:hover {
+    color: cyan;
+}
+
+.foot-info a:hover {
+    color: cyan;
+}
+.foot-info h4{
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+
+.foot-info p {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+.foot-info a{
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.custom-top {
+    background-color: white;
+    position: static;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    padding-left: 2px;
+    margin: -2px 1270px;
+    float: left;
+
+}
+
+.custom-top:hover{
+    background-color: aqua;
+}

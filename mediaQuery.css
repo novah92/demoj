@@ -1,0 +1,508 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/*==========================================================*/
+                    /* Portrait */
+/*==========================================================*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-size: 100%;
+    }
+/*==========================================================*/
+    /*    navigation bar*/
+/*==========================================================*/
+    .navbar-custom {
+        display: none;
+        position: relative;
+        padding: 20px;
+        background: #1e807b;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    .navbar-custom:hover ul {
+        display: block;
+    }
+
+    .navbar-custom > li {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+    }
+/*==========================================================*/
+/*header details*/
+/*==========================================================*/
+    .header-banner {
+        padding: 0 10px 0 10px;
+    }
+
+    .header-name {
+        font-size: 40px;
+        font-family: sans-serif;
+        text-indent: -1em;
+    }
+
+    .header-ban {
+        font-size: 20px;
+
+    }
+/*==========================================================*/
+/*responsive view menu*/
+/*==========================================================*/
+    .btn-menu {
+        display: block;
+        background-color: #1e807b;
+        color: white;
+        font-size: 3em;
+        float: center;
+    }
+
+    .btn-menu:before {
+        content: " ";
+    }
+/*==========================================================*/
+    /*social icons*/
+/*==========================================================*/
+    .sticky-container {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        right: -130px;
+        top: 230px;
+        width: 321px;
+        z-index: 1100;
+    }
+
+    .social {
+
+        font-size: 65px;
+        margin: 115px 0 18px 0;
+        padding: 10px;
+        position: relative;
+        left: -160px;
+    }
+
+    .social > li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-left: 0px;
+        margin-top: 60px;
+        border-radius: 25px;
+        width: 35px;
+        height: 20px;
+        position: relative;
+
+    }
+
+/* social media ends her*/
+/*==========================================================*/
+/*begining of About Style*/
+/*==========================================================*/
+    #about {
+        font-family: sans-serif;
+        padding-top: 41px;
+        padding-left: 0;
+        position: relative;
+        padding-bottom: 160px;
+        overflow: hidden;
+    }
+/*======================================================================*/
+    /* beginining why i am section*/
+/*======================================================================*/
+    #services {
+        font-family: sans-serif;
+        padding-top: 50px;
+        position: relative;
+        padding-bottom: 65px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        min-height: 400px;
+    }
+    .service-list {
+        padding-top: 3em;
+        width: 357px;
+        margin-left: -75px;
+    }
+    .h4-services {
+        color: #111;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        margin-left: -38px;
+        text-transform: uppercase;
+        width: 310px;
+    }
+/*======================================================================*/
+    /* begining skills and education section*/
+/*======================================================================*/
+    #education {
+        padding-top: 50px;
+        margin-left: -110px;
+    }
+
+    .technology-list {
+        padding-top: 9px;
+        padding-right: 3px;
+    padding-left: 8px;
+    }
+    .progress-type {
+        position: absolute;
+        color: white;
+        left: 0;
+        padding-left: 122px;
+        font-size: 12px;
+
+    }
+
+    .skills-heading{
+        margin-left: 120px;
+    }
+
+/*======================================================================*/
+    /* begining of Experience section*/
+/*======================================================================*/
+    #experience {
+        padding: 50px 30px 0px 30px;
+
+
+    }
+    .experiecne {
+        margin-left: -27px;
+        margin-right: -39px;
+        padding-top: 30px;
+    }
+
+    .exp-year {
+        width: 30%;
+        float: left;
+        border-left: 2px solid #E66B00;
+    }
+
+    .exp-year h4 {
+        font-size: 14px;
+    }
+/*======================================================================*/
+    /* begining of footer*/
+/*======================================================================*/
+    .foot-icon {
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        text-align: center;
+        background: #44c7f4;
+        margin: 0 auto;
+        padding-top: 13px;
+    }
+
+    .foot-info {
+        padding-top: -6px;
+        font-size: 14px;
+        ;
+    }
+    .contact-field-set {
+        background-color: #2e2e2e;
+        padding: 20px 20px;
+        margin: 14px -2px;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+    .contact-field {
+        text-align: center;
+        margin-left: 80px;
+        padding-top: 40px;
+    }
+    .foot-info h4 {
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 3px;
+        margin-bottom: .5em;
+    }
+
+    .foot-info p {
+        color: #999;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .foot1 {
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .custom-top {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-top: 6px;
+    }
+
+}
+/*======================================================================*/
+  /* -----End of ------ iPhone 6, 6S, 7 and 8 ------Potrait mode----- */
+/*======================================================================*/
+
+
+/*======================================================================*/
+  /* -----Begining of ------ iPhone 6, 6S, 7 and 8 ------Landscape mode----- */
+/*======================================================================*/
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-size: 100%;
+    }
+/*==========================================================*/
+    /*    navigation bar*/
+/*==========================================================*/
+    .navbar-custom {
+        display: none;
+        position: relative;
+        padding: 20px;
+        background: #1e807b;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    .navbar-custom:hover ul {
+        display: block;
+    }
+
+    .navbar-custom > li {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+    }
+/*==========================================================*/
+/*header details*/
+/*==========================================================*/
+    .header-banner {
+        padding: 0 10px 0 10px;
+    }
+
+    .header-name {
+        font-size: 36px;
+        font-family: sans-serif;
+        text-indent: 0;
+    }
+
+    .header-ban {
+        font-size: 20px;
+
+    }
+/*==========================================================*/
+/*responsive view menu*/
+/*==========================================================*/
+    .btn-menu {
+        display: block;
+        background-color: #1e807b;
+        color: white;
+        font-size: 3em;
+        float: center;
+    }
+
+    .btn-menu:before {
+        content: " ";
+    }
+/*==========================================================*/
+    /*social icons*/
+/*==========================================================*/
+    .sticky-container {
+
+        position: absolute;
+        right: -61px;
+        top: 230px;
+        width:421px;
+        z-index: 1100;
+        word-spacing: 16px;
+    }
+
+    .social {
+
+        font-size: 65px;
+        margin: 115px 0 18px 0;
+        padding: 10px;
+        position: relative;
+        left: -160px;
+    }
+
+    .social > li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-left: 0px;
+        margin-top: 60px;
+        border-radius: 25px;
+        width: 35px;
+        height: 20px;
+        position: relative;
+
+    }
+
+/* social media ends her*/
+/*==========================================================*/
+/*begining of About Style*/
+/*==========================================================*/
+    #about {
+        font-family: sans-serif;
+        padding-top: 41px;
+        padding-left: 0;
+        position: relative;
+        padding-bottom: 160px;
+        overflow: hidden;
+    }
+/*======================================================================*/
+    /* beginining why i am section*/
+/*======================================================================*/
+    #services {
+        font-family: sans-serif;
+        padding-top: 50px;
+        position: relative;
+        padding-bottom: 65px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        min-height: 400px;
+    }
+    .service-list {
+        padding-top: 3em;
+        width: 100%;
+        margin-left: 5px;
+    }
+    .h4-services {
+        color: #111;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        margin-left: 91px;
+        text-transform: uppercase;
+        width: 310px;
+    }
+/*======================================================================*/
+    /* begining skills and education section*/
+/*======================================================================*/
+    #education {
+        padding-top: 50px;
+        margin-left: -110px;
+    }
+
+    .technology-list {
+        padding-top: 9px;
+        padding-left: 30px;
+    }
+    .progress-type {
+        position: absolute;
+        color: white;
+        left: 0;
+        padding-left: 52px;
+        font-size: 14px;
+
+    }
+
+    .skills-heading{
+        margin-left: 5px;
+    }
+
+/*======================================================================*/
+    /* begining of Experience section*/
+/*======================================================================*/
+    #experience {
+        padding: 50px 30px 0px 30px;
+
+
+    }
+    .experiecne {
+        margin-left: -27px;
+        margin-right: -39px;
+        padding-top: 30px;
+    }
+
+    .exp-year {
+        width: 30%;
+        float: left;
+        border-left: 2px solid #E66B00;
+    }
+
+    .exp-year h4 {
+        font-size: 14px;
+    }
+/*======================================================================*/
+    /* begining of footer*/
+/*======================================================================*/
+    .foot-icon {
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        text-align: center;
+        background: #44c7f4;
+        margin: 0 auto;
+        padding-top: 13px;
+    }
+
+    .foot-info {
+        padding-top: -6px;
+        font-size: 14px;
+        ;
+    }
+    .contact-field-set {
+        background-color: #2e2e2e;
+    padding: 15px 20px;
+    margin: 13px 1px;
+    border-radius: 100%;
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    }
+    .contact-field {
+        text-align: center;
+        margin-left: 16px;
+        padding-top: 44px;
+    }
+    .foot-info h4 {
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 3px;
+        margin-bottom: .5em;
+    }
+
+    .foot-info p {
+        color: #999;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .foot1 {
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .custom-top {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-top: 6px;
+    }
+
+}
+
